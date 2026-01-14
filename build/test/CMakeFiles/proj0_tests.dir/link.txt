@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/proj0_tests.dir/link.d CMakeFiles/proj0_tests.dir/portableTests.cpp.o -o proj0_tests  ../src/libproj0_lib.a ../lib/libgtest.a ../lib/libgtest_main.a ../lib/libgtest.a
