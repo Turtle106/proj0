@@ -1,5 +1,0 @@
-if(EXISTS "/home/turtleman42/coding/cpp/proj0/build/test/proj0_tests[1]_tests.cmake")
-  include("/home/turtleman42/coding/cpp/proj0/build/test/proj0_tests[1]_tests.cmake")
-else()
-  add_test(proj0_tests_NOT_BUILT proj0_tests_NOT_BUILT)
-endif()
