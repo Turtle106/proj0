@@ -1,5 +1,10 @@
 include(FetchContent)
-FetchContent_Declare(googletest URL https://github.com/google/googletest)
+FetchContent_Declare(
+    googletest
+    GIT_REPOSITORY https://github.com/google/googletest.git
+    GIT_TAG v1.14.0
+    DOWNLOAD_EXTRACT_TIMESTAMP ON
+)
 FetchContent_MakeAvailable(googletest)
 
 add_executable(runTests portableTests.cpp)

@@ -42,3 +42,6 @@
 
 # Build directory
 build/
+
+# googletests repo
+test/googletests/
